@@ -15,7 +15,7 @@
                 throw error1;
             }
 
-            var queue = 'tokenPriceQueue';
+            var queue = 'create-scalp';
 
             channel.assertQueue(queue, {
                 durable: true
