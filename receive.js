@@ -15,7 +15,7 @@
                 throw error1;
             }
 
-            var queue = 'hello';
+            var queue = 'tokenPriceQueue';
 
             channel.assertQueue(queue, {
                 durable: false
